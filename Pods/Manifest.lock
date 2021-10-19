@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 1a204e3c55aee9c931703afb0261f0697608dcc5
+
+COCOAPODS: 1.11.2

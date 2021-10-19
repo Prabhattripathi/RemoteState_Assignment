@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A0E6F4271DAB930066FC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E6F3271DAB930066FC6C /* AppDelegate.swift */; };
+		19A0E6F6271DAB930066FC6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E6F5271DAB930066FC6C /* SceneDelegate.swift */; };
+		19A0E6F8271DAB930066FC6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E6F7271DAB930066FC6C /* MainViewController.swift */; };
+		19A0E6FB271DAB930066FC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A0E6F9271DAB930066FC6C /* Main.storyboard */; };
+		19A0E6FD271DAB960066FC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A0E6FC271DAB960066FC6C /* Assets.xcassets */; };
+		19A0E700271DAB960066FC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A0E6FE271DAB960066FC6C /* LaunchScreen.storyboard */; };
+		19A0E70D271DD4FF0066FC6C /* TrucksListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E70C271DD4FF0066FC6C /* TrucksListTableViewController.swift */; };
+		19A0E70F271DD5120066FC6C /* TrucksMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E70E271DD5120066FC6C /* TrucksMapViewController.swift */; };
+		19A0E712271DD55B0066FC6C /* TrucksListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E711271DD55B0066FC6C /* TrucksListTableViewCell.swift */; };
+		19A0E714271DDC980066FC6C /* TruckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E713271DDC980066FC6C /* TruckModel.swift */; };
+		19A0E717271DDDE50066FC6C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E716271DDDE50066FC6C /* Network.swift */; };
+		19A0E719271DDE420066FC6C /* TruckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0E718271DDE420066FC6C /* TruckViewModel.swift */; };
+		B3B0083056ED17B420755501 /* Pods_RemoteState_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC5E4641B6A477C9D3A9563 /* Pods_RemoteState_Assignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19A0E6F0271DAB930066FC6C /* RemoteState_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteState_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A0E6F3271DAB930066FC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A0E6F5271DAB930066FC6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19A0E6F7271DAB930066FC6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		19A0E6FA271DAB930066FC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A0E6FC271DAB960066FC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A0E6FF271DAB960066FC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A0E701271DAB960066FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A0E70C271DD4FF0066FC6C /* TrucksListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksListTableViewController.swift; sourceTree = "<group>"; };
+		19A0E70E271DD5120066FC6C /* TrucksMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksMapViewController.swift; sourceTree = "<group>"; };
+		19A0E711271DD55B0066FC6C /* TrucksListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksListTableViewCell.swift; sourceTree = "<group>"; };
+		19A0E713271DDC980066FC6C /* TruckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckModel.swift; sourceTree = "<group>"; };
+		19A0E716271DDDE50066FC6C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		19A0E718271DDE420066FC6C /* TruckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckViewModel.swift; sourceTree = "<group>"; };
+		2CC5E4641B6A477C9D3A9563 /* Pods_RemoteState_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteState_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625494F38D2308CA2D9B965D /* Pods-RemoteState_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteState_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		984B5A6EFDE258733A0335AD /* Pods-RemoteState_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteState_Assignment.release.xcconfig"; path = "Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A0E6ED271DAB930066FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B0083056ED17B420755501 /* Pods_RemoteState_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A0E6E7271DAB920066FC6C = {
+			isa = PBXGroup;
+			children = (
+				19A0E6F2271DAB930066FC6C /* RemoteState_Assignment */,
+				19A0E6F1271DAB930066FC6C /* Products */,
+				FB7AF97C8559328AF677AF92 /* Pods */,
+				D5F2906BA9125A37FB8EB1C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A0E6F1271DAB930066FC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E6F0271DAB930066FC6C /* RemoteState_Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A0E6F2271DAB930066FC6C /* RemoteState_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E707271DD4270066FC6C /* Model */,
+				19A0E708271DD4320066FC6C /* View Model */,
+				19A0E709271DD43D0066FC6C /* Views */,
+				19A0E70A271DD4540066FC6C /* View Controllers */,
+				19A0E70B271DD4660066FC6C /* App Class */,
+				19A0E710271DD53C0066FC6C /* TableView Cell */,
+				19A0E715271DDDC30066FC6C /* Helper */,
+				19A0E6FC271DAB960066FC6C /* Assets.xcassets */,
+				19A0E701271DAB960066FC6C /* Info.plist */,
+			);
+			path = RemoteState_Assignment;
+			sourceTree = "<group>";
+		};
+		19A0E707271DD4270066FC6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E713271DDC980066FC6C /* TruckModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19A0E708271DD4320066FC6C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E718271DDE420066FC6C /* TruckViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		19A0E709271DD43D0066FC6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E6F9271DAB930066FC6C /* Main.storyboard */,
+				19A0E6FE271DAB960066FC6C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19A0E70A271DD4540066FC6C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E6F7271DAB930066FC6C /* MainViewController.swift */,
+				19A0E70C271DD4FF0066FC6C /* TrucksListTableViewController.swift */,
+				19A0E70E271DD5120066FC6C /* TrucksMapViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		19A0E70B271DD4660066FC6C /* App Class */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E6F3271DAB930066FC6C /* AppDelegate.swift */,
+				19A0E6F5271DAB930066FC6C /* SceneDelegate.swift */,
+			);
+			path = "App Class";
+			sourceTree = "<group>";
+		};
+		19A0E710271DD53C0066FC6C /* TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E711271DD55B0066FC6C /* TrucksListTableViewCell.swift */,
+			);
+			path = "TableView Cell";
+			sourceTree = "<group>";
+		};
+		19A0E715271DDDC30066FC6C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				19A0E716271DDDE50066FC6C /* Network.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D5F2906BA9125A37FB8EB1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC5E4641B6A477C9D3A9563 /* Pods_RemoteState_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB7AF97C8559328AF677AF92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				625494F38D2308CA2D9B965D /* Pods-RemoteState_Assignment.debug.xcconfig */,
+				984B5A6EFDE258733A0335AD /* Pods-RemoteState_Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A0E6EF271DAB930066FC6C /* RemoteState_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A0E704271DAB960066FC6C /* Build configuration list for PBXNativeTarget "RemoteState_Assignment" */;
+			buildPhases = (
+				A267403CDBDBD160054FDB95 /* [CP] Check Pods Manifest.lock */,
+				19A0E6EC271DAB930066FC6C /* Sources */,
+				19A0E6ED271DAB930066FC6C /* Frameworks */,
+				19A0E6EE271DAB930066FC6C /* Resources */,
+				D4967B73365DCC4364366ADD /* [CP] Embed Pods Frameworks */,
+				B9D9FB799761C115A4A20454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteState_Assignment;
+			productName = RemoteState_Assignment;
+			productReference = 19A0E6F0271DAB930066FC6C /* RemoteState_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A0E6E8271DAB920066FC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					19A0E6EF271DAB930066FC6C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 19A0E6EB271DAB920066FC6C /* Build configuration list for PBXProject "RemoteState_Assignment" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A0E6E7271DAB920066FC6C;
+			productRefGroup = 19A0E6F1271DAB930066FC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A0E6EF271DAB930066FC6C /* RemoteState_Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A0E6EE271DAB930066FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A0E700271DAB960066FC6C /* LaunchScreen.storyboard in Resources */,
+				19A0E6FD271DAB960066FC6C /* Assets.xcassets in Resources */,
+				19A0E6FB271DAB930066FC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A267403CDBDBD160054FDB95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteState_Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D9FB799761C115A4A20454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4967B73365DCC4364366ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemoteState_Assignment/Pods-RemoteState_Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A0E6EC271DAB930066FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A0E6F8271DAB930066FC6C /* MainViewController.swift in Sources */,
+				19A0E714271DDC980066FC6C /* TruckModel.swift in Sources */,
+				19A0E717271DDDE50066FC6C /* Network.swift in Sources */,
+				19A0E719271DDE420066FC6C /* TruckViewModel.swift in Sources */,
+				19A0E70D271DD4FF0066FC6C /* TrucksListTableViewController.swift in Sources */,
+				19A0E6F4271DAB930066FC6C /* AppDelegate.swift in Sources */,
+				19A0E6F6271DAB930066FC6C /* SceneDelegate.swift in Sources */,
+				19A0E70F271DD5120066FC6C /* TrucksMapViewController.swift in Sources */,
+				19A0E712271DD55B0066FC6C /* TrucksListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19A0E6F9271DAB930066FC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A0E6FA271DAB930066FC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A0E6FE271DAB960066FC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A0E6FF271DAB960066FC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A0E702271DAB960066FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A0E703271DAB960066FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A0E705271DAB960066FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625494F38D2308CA2D9B965D /* Pods-RemoteState_Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteState_Assignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabhat.RemoteState-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A0E706271DAB960066FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984B5A6EFDE258733A0335AD /* Pods-RemoteState_Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteState_Assignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabhat.RemoteState-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A0E6EB271DAB920066FC6C /* Build configuration list for PBXProject "RemoteState_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A0E702271DAB960066FC6C /* Debug */,
+				19A0E703271DAB960066FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A0E704271DAB960066FC6C /* Build configuration list for PBXNativeTarget "RemoteState_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A0E705271DAB960066FC6C /* Debug */,
+				19A0E706271DAB960066FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A0E6E8271DAB920066FC6C /* Project object */;
+}
